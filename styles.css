@@ -1,0 +1,121 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Hot pink */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font-family: 'Comic Neue', cursive; /* Friendly font */
+    color: #800080; /* Purple color */
+}
+
+.hero {
+    background-color: #ffb6c1; /* Light pink */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#items ul, #branches ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#items ul li, #branches ul li {
+    background-color: #fffacd; /* Lemon chiffon */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive; /* Friendly font */
+    color: #006400; /* Dark green color for items */
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #ff69b4; /* Hot pink */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height:30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff85c8;
+}
+
+
+
+
